@@ -5,6 +5,6 @@ app.get("/",(req, res)=>{
     res.send("<h1>Technobyte</h1>");
 })
 
-app.listen(5000, ()=>{
+app.listen(3000, ()=>{
     console.log("Listing")
 })
